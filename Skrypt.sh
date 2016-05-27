@@ -3,7 +3,7 @@
 dzien=`date +%u`
 ./1
 
-if [ $dzien -gt 2 ]; then # do zmiany
+if [ $dzien -gt 4 ]; then
 slowo=`./2`
 
 litera=`echo $slowo | cut -c 1`
