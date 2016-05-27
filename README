@@ -1,0 +1,21 @@
+Program majacy na celu wyslanie wiadomosci podanej przez uzytkownika na standardowe wejscie
+do kolejki komunikatow a nastepnie jesli jest weekend odbieral ja i sprawdzal czy jest ona poprawna wiadomoscia w jezyku polskim.
+
+
+Zawartosc:
+1.c - kod programu wysylajacego do listy komunikatow
+2.c - kod programu odbierajacego z listy komunikatow
+1 - 1.c po kompilacji
+2 - 2.c po kompilacji
+Makefile - sluzy do kompilacji plikow 1.c oraz 2.c
+Skrypt.sh - Glowny program
+IPCMDInstaller.sh - Sluzy do instalacji IPCMD (Wymaga uprawnien roota)
+
+
+Aby uruchomic program nalezy uruchomic:
+Skrypt.sh
+
+W razie checi dokonania modyfikacji nalezy najpierw zmodyfikowac 1.c lub 2.c a nastepnie skompilowac za pomoca komendy:
+make 1
+make 2
+
