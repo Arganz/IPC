@@ -1,5 +1,5 @@
 Program majacy na celu wyslanie wiadomosci podanej przez uzytkownika na standardowe wejscie
-do kolejki komunikatow a nastepnie jesli jest weekend odbieranie jef i sprawdzenie czy jest ona poprawna wiadomoscia w jezyku polskim.
+do kolejki komunikatow a nastepnie jesli jest weekend odbieranie jej i sprawdzenie czy jest ona poprawna wiadomoscia w jezyku polskim.
 
 
 Zawartosc:
@@ -9,7 +9,7 @@ Zawartosc:
 2 - 2.c po kompilacji
 Makefile - sluzy do kompilacji plikow 1.c oraz 2.c
 Skrypt.sh - Glowny program
-IPCMDInstaller.sh - Sluzy do instalacji IPCMD (Wymaga uprawnien roota)
+IPCMDInstaller.sh - Sluzy do pobrania i instalacji IPCMD (Wymaga uprawnien roota)
 
 
 Aby uruchomic program nalezy uruchomic:
